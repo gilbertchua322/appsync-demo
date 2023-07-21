@@ -1,0 +1,16 @@
+# this is an auto generated file. This will be overwritten
+mutation UpdateFeaturedOrder($teams: [TeamInput]) {
+  updateFeaturedOrder(teams: $teams) {
+    id
+    name
+    featuredOrder
+  }
+}
+mutation SendQuestion($eventId: Int!, $question: QuestionInput) {
+  sendQuestion(eventId: $eventId, question: $question) {
+    eventId
+    question {
+      id
+    }
+  }
+}

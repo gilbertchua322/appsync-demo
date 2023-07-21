@@ -1,0 +1,14 @@
+{
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "zujuwebadmin",
+  "version": "3.1",
+  "frontend": "android",
+  "android": {
+    "framework": "none",
+    "config": {
+      "ResDir": "src"
+    }
+  }
+}

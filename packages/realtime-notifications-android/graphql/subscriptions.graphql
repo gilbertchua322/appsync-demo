@@ -1,0 +1,16 @@
+# this is an auto generated file. This will be overwritten
+subscription UpdateFeaturedOrder {
+  updateFeaturedOrder {
+    id
+    name
+    featuredOrder
+  }
+}
+subscription ReceiveQuestion($eventId: Int) {
+  receiveQuestion(eventId: $eventId) {
+    eventId
+    question {
+      id
+    }
+  }
+}

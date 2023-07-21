@@ -1,0 +1,16 @@
+projects:
+  zujuwebadmin:
+    schemaPath: schema.json
+    includes:
+      - packages/realtime-notifications-android/graphql/**/*.graphql
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: ''
+        generatedFileName: ''
+        docsFilePath: packages/realtime-notifications-android/graphql
+        maxDepth: 2
+extensions:
+  amplify:
+    version: 3
